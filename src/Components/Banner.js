@@ -1,15 +1,14 @@
 import { Container, Row,Col ,Nav } from "react-bootstrap"
 import { BsArrowRightCircle } from "react-icons/bs"
-import banner from "../assets/img/banner.jpg"
+import banner from "../assets/img/OIG1-removebg-preview.png"
 import { useState,useEffect } from "react"
 import 'animate.css'
 import TrackVisibility from "react-on-screen"
-import { isVisible } from "@testing-library/user-event/dist/utils"
 
 export const Banner = () => {
     const [loopNum,setLoopNum]=useState(0)
     const [isDeleting,setIsDeleting]=useState(false)
-    const toRotate=["FullStack Dev","FrontEnd Dev","BackEnd Dev"]
+    const toRotate=["Senior Computer Science ","FrontEnd Dev"]
     const [text,setText]=useState('')
     const [delta,setdelta]=useState(300-Math.random()*100)
     const period=2000;
@@ -19,6 +18,7 @@ export const Banner = () => {
             tick()
         },delta)
         return()=>{clearInterval(ticker)}
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[text])
     const tick=()=>{
         let i =loopNum%toRotate.length
@@ -47,9 +47,9 @@ export const Banner = () => {
                     <TrackVisibility>
                     {({isVisible})=>
                     <div className={isVisible? "animate__animated animate__fadeIn":""}>
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hi I'm Mo Gado, `}<span className="wrap">{text}</span></h1>
-                        <p>Hello Every One I Have Experiance In Web Development</p>
+                        <span className="tagline">Welcome In My Portfolio</span>
+                        <h1>{`Hi I'm Sumaia Abdullah, `}<span className="wrap">{text}</span></h1>
+                        <p>Greetings, I Have Experiance In Web Development</p>
                         <Nav.Link href="#connect"><button className="vvd" onClick={() => console.log('connect')}>Let's Connect <BsArrowRightCircle size={25}/></button></Nav.Link>
                     </div>}
                     </TrackVisibility>

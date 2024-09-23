@@ -1,10 +1,10 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container,Col,Row } from "react-bootstrap";
-import meter1 from "../assets/img/meter1.svg"
-import meter2 from "../assets/img/meter2.svg"
-import meter3 from "../assets/img/meter3.svg"
-import colorSharp from"../assets/img/color-sharp.png"
+import rate1 from "../assets/img/85.jpg"
+import rate2 from "../assets/img/80.jpg"
+import rate3 from "../assets/img/90.jpg"
+
 import TrackVisibility from "react-on-screen";
 import "animate.css"
 
@@ -36,24 +36,24 @@ export const Skills=()=>{
                 <div className="skill-bx">
                 <TrackVisibility>
                     {({isVisible})=>
-                    <div className={isVisible? "animate__animated animate__bounce":""}>
+                    <div className={isVisible? "":""}>
                     <h2>Skills</h2>
                     <p>You Can see My Skills Here</p>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
-                            <img src={meter3} alt="image"/>
+                            <img src={rate3} alt="image"/>
                             <h5>Web Development</h5>
                         </div>
                         <div className="item">
-                            <img src={meter1} alt="image"/>
+                            <img src={rate1} alt="image"/>
                             <h5>FrontEnd Development</h5>
                         </div>
                         <div className="item">
-                            <img src={meter3} alt="image"/>
+                            <img src={rate3} alt="image"/>
                             <h5>BackEnd Development</h5>
                         </div>
                         <div className="item">
-                            <img src={meter2} alt="image"/>
+                            <img src={rate2} alt="image"/>
                             <h5>Machine Learning</h5>
                         </div>
                     </Carousel>
@@ -63,7 +63,7 @@ export const Skills=()=>{
                 </Col>
             </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} alt="bg"/>
+            
         </section>
     )
 }

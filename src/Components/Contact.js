@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/phone.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -64,7 +64,7 @@ export const Contact = () => {
                     <Col md={6}>
                     <TrackVisibility>
                     {({isVisible})=>
-                    <div className={isVisible? "animate__animated animate__bounce":""}>
+                    <div className={isVisible? "":""}>
                     <h2>Get In Touch</h2>
                     </div>}
                     </TrackVisibility>

@@ -1,18 +1,18 @@
 /* fonts */
 @font-face{
-    font-family: Centra;
-    src: url("./assets/font/CentraNo2-Bold.ttf");
-    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url("");
+    font-weight: 600;
 }
 @font-face{
-    font-family: Centra;
-    src: url("./assets/font/CentraNo2-Medium.ttf");
-    font-weight: 500;
-}
-@font-face{
-    font-family: Centra;
-    src: url("./assets/font/CentraNo2-Book.ttf");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url("");
     font-weight: 400;
+}
+@font-face{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url("");
+    font-weight: 300;
 }
 /* Default css*/
 *{
@@ -30,7 +30,7 @@ body{
     position: relative;
     background-color: #121212 !important;
     color: #fff !important;
-    font-family: 'Centra', sans-serif !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
     margin: 0;
@@ -86,7 +86,7 @@ nav.navbar a.navbar-brand{
     width: 25%;
 }
 nav.navbar .navbar-brand img{
-    width: 100%;
+    width: 25%;
 }
 nav.navbar .nav-link.navbar-link{
     font-weight: 400;
@@ -224,7 +224,7 @@ border-color: transparent;
 .banner{
     margin-top: 0;
     padding: 240px 0 100px 0;
-    background-image: url("./assets/img/banner-bg.png");
+    background-image: url("./assets/img/OIG2.LX3JZy.jpeg");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -233,7 +233,7 @@ border-color: transparent;
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
-    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    background: linear-gradient(90.21deg, rgba(84, 7, 91, 0.66) -5.91%, rgba(80, 69, 128, 0.705) 111.58%);
     border: 1px solid rgba(255,255,255,0.5);
     font-size: 20px;
     margin-bottom: 16px;
@@ -248,14 +248,14 @@ border-color: transparent;
     display: block;
 }
 .banner p{
-    color: #B8B8B8;
+    color: #ddcde1;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
 }
 .banner button{
-    color: #fff;
+    color: #ece5e5;
     letter-spacing: 0.8px;
     font-size: 20px;
     font-weight: 700;
@@ -264,19 +264,18 @@ border-color: transparent;
     margin-top: 40px;
 }
 .banner button svg{
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 10px;
     transition: 0.3s ease-in-out;
     line-height: 1;
 }
 .banner button:hover svg{
-    margin-left: 25px;
+    margin-left: 30px;
 }
 .banner img{
-    width: 70%;
-    height: 70%;
-    border-radius: 50%;
-    margin-left: 50px;
+    width: 80%;
+    height: 80%;
+    margin-left: 60px;
     animation: updown 3s linear infinite;
 }
 @keyframes updown{
@@ -299,7 +298,7 @@ border-color: transparent;
     position: relative;
 }
 .skill-bx{
-    background: #151515;
+    background: #000000;
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
@@ -311,7 +310,7 @@ border-color: transparent;
     margin-top: 8px;
 }
 .skill p{
-    color: #B8B8B8;
+    color: #c1bbbb;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -323,7 +322,7 @@ border-color: transparent;
     position: relative;
 }
 .skill-slider .item img{
-    width: 50%;
+    width: 70%;
     margin: 0 auto 15px auto;
 }
 .background-image-left{
@@ -340,24 +339,23 @@ border-color: transparent;
     background-color: black;
 }
 .project h2{
-    font-size: 45px;
-    font-weight: 700;
+    font-size: 43px;
+    font-weight: 650;
     text-align: center;
 }
 .project p{
-    color: #B8B8B8;
+    color: #d5cfcf;
     text-align: center;
-    width: 56%;
+    width: 55%;
     line-height: 1.5em;
-    letter-spacing: 0.8px;
-    font-size: 18px;
-    margin: 14px auto 30px auto;
+    font-size: 17px;
+    margin: 15px auto 30px auto;
 }
 .project .nav.nav-pills{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     border-radius: 50px;
-    background-color: rgb(255 255 255 / 10%);
+    background-color: rgba(85, 82, 82, 0.324);
     overflow: hidden;
 }
 .project .nav.nav-pills .nav-item{
@@ -371,7 +369,6 @@ border-color: transparent;
     color: #fff;
     width: 100%;
     font-size: 17px;
-    letter-spacing: 0.8px;
     font-weight: 500;
     position: relative;
     transition: 0.3s ease-in-out;
@@ -382,7 +379,7 @@ border-color: transparent;
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg,#AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg,#a235ae -5.91%, #322e39b8 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -422,8 +419,8 @@ border-color: transparent;
     position: absolute;
     width: 100%;
     height: 0;
-    transition: 0.4s ease-in-out;
-    background: linear-gradient(90.21deg,#AA367C -5.91%, #4A2FBD 111.58%);
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(90.21deg,#a235ae -5.91%, #322e39b8 111.58%);
 }
 .proj-imgbx:hover::before{
     height: 100%;
@@ -449,14 +446,12 @@ border-color: transparent;
     line-height: 1.1em;
 }
 .proj-txtx span{
-    font-style: italic;
     font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 0.8px;
+    font-size: 14px;
     display: block;
 }
 .proj-txtx a{
-    color: #121212;
+    color: #1a1a1a;
     text-decoration: none;
 }
 .proj-txtx button{
@@ -478,8 +473,9 @@ border-color: transparent;
 }
 /* Contact */
 .contact{
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #634669 -5.91%, #291051 111.58%);
     padding: 60px 0 200px 0;
+    
 }
 .contact img{
     width: 92%;
@@ -551,10 +547,11 @@ border-color: transparent;
 /* footer */
 .footer{
     padding: 0 0 50px 0;
-    background-image: url('./assets/img/footer-bg.png');
+    background-image: url('./assets/img/f.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .newsletter-bx{
     background-color: #fff;
@@ -580,7 +577,7 @@ border-color: transparent;
 }
 .new-email-bx::before {
     content: "";
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #9e36aa -5.91%, #000000 111.58%);
     border-radius: 20px;
     position: absolute;
     z-index: -1;
@@ -609,7 +606,7 @@ border-color: transparent;
     padding: 0 15px;
 }
 .new-email-bx button{
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #9e36aa -5.91%, #000000 111.58%);
     padding: 20px 65px;
     color: #fff;
     font-weight: 500;
@@ -617,23 +614,15 @@ border-color: transparent;
     border-radius: 18px;
 }
 .footer img{
-    width: 50%;
+    width: 20%;
 }
 .footer p{
     font-size: 14px;
     font-weight: 400;
-    color: #B8B8B8;
+    color: #c1bbbb;
     letter-spacing: 0.5px;
     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
 
 
 @media (max-width:769px){
@@ -644,7 +633,7 @@ border-color: transparent;
         width: 45%;
     }
     .banner img{
-        margin-top: 25px;
+        margin-top: 50px;
     }
     .newsletter-bx{
         padding: 20px 30px;

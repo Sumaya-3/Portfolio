@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/logo.PNG";
+import logo from "../assets/img/OIG1.jpeg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -29,7 +28,6 @@ export const NavBar = () => {
   };
 
   return (
-  //  Generates: <nav class="navbar navbar-expand-lg">...</nav> 
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
     <Container>
       <Navbar.Brand href="#home"><img src={logo} alt="logo"/></Navbar.Brand>
@@ -44,9 +42,9 @@ export const NavBar = () => {
         </Nav>
         <span className="navbar-text">
           <div className="social-icon">
-            <a href="https://www.linkedin.com/in/mahmoud-gado-b53028244"><img src={navIcon1} alt="Icon" /></a>
-            <a href="https://www.facebook.com/mhaomod.gado?mibextid=ZbWKwL"><img src={navIcon2} alt="Icon" /></a>
-            <a href="https://www.instagram.com/ma7moudgado1?igsh=MTIyaHo3bWRobGtmcQ=="><img src={navIcon3} alt="Icon" /></a> 
+            <a href="hhhhh"><img src={navIcon1} alt="" /></a>
+            <a href="hhhhh"><img src={navIcon2} alt="" /></a>
+            <a href="hhhhh"><img src={navIcon3} alt="" /></a> 
           </div>
           <Nav.Link href="#connect"  onClick={() => onUpdateActiveLink('connect')}><button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button></Nav.Link>
         </span>

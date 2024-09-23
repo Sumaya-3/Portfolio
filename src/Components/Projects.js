@@ -1,11 +1,10 @@
 import { Row, Col, Container,Nav,Tab} from "react-bootstrap";
-import Img1 from "../assets/img/project1.PNG"
-import Img2 from "../assets/img/project2.PNG"
-import Img3 from "../assets/img/project3.PNG"
-import Img4 from "../assets/img/project4.PNG"
-import Img5 from "../assets/img/project5.PNG"
-import Img6 from "../assets/img/project6.PNG"
-import colorSharp2 from "../assets/img/color-sharp2.png"
+import Img1 from "../assets/img//pro1.jpg"
+import Img2 from "../assets/img/pro2.jpg"
+import Img3 from "../assets/img/pro3.jpg"
+import Img4 from "../assets/img/pro1.jpg"
+import Img5 from "../assets/img/pro2.jpg"
+import Img6 from "../assets/img/pro3.jpg"
 import { ProjectCard } from "./ProjectCard";
 import "animate.css"
 import TrackVisibility from "react-on-screen";
@@ -15,38 +14,32 @@ export const Projects=()=>{
         {
             title:"Business Startup",
             description:"Design & Development",
-            imgUrl:Img1,
-            url:"https://mahmoudgado1.github.io/EcommercePlatform/"
+            imgUrl:Img1
         },
         {
             title:"Business Startup",
             description:"Design & Development",
-            imgUrl:Img2,
-            url:"https://mahmoudgado1.github.io/Template-2/"
+            imgUrl:Img2  
         },
         {
             title:"Business Startup",
             description:"Design & Development",
-            imgUrl:Img3,
-            url:"https://mahmoudgado1.github.io/Template-3/"
+            imgUrl:Img3
         },
         {
             title:"Business Startup",
             description:"Design & Development",
-            imgUrl:Img4,
-            url:"https://mahmoudgado1.github.io/Shopping-Cart/"
+            imgUrl:Img4
         },
         {
             title:"Business Startup",
             description:"Design & Development",
-            imgUrl:Img5,
-            url:"https://to-do-list-six-red.vercel.app/"
+            imgUrl:Img5
         },
         {
             title:"Business Startup",
             description:"Design & Development",
-            imgUrl:Img6,
-            url:"https://mahmoudgado1.github.io/Template-1/"
+            imgUrl:Img6
         },
     ]
     return(
@@ -56,9 +49,9 @@ export const Projects=()=>{
                     <Col>
                     <TrackVisibility>
                     {({isVisible})=>
-                    <div className={isVisible? "animate__animated animate__bounce":""}>
+                    <div className={isVisible? "":""}>
                     <h2>Projects</h2>
-                    <p>My Name Is Mahmoud , I Live In Egypt , This Is The 11th Proj In React Dev.</p>
+                    <p>My Name Is SUMAIA, This Is My Project In React Development.</p>
                     </div>}
                     </TrackVisibility>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -88,14 +81,14 @@ export const Projects=()=>{
                         <Tab.Pane eventKey="second">
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
-                            <p>My Name Is Mahmoud , I Live In Egypt , This Is The 11th Proj In React Dev.</p>
+                            <p>My Name Is SUMAIA, This Is My Project In React Development.</p>
                         </Tab.Pane>
                     </Tab.Content>
                     </Tab.Container>
                     </Col>
                 </Row>
             </Container>
-            <img src={colorSharp2} alt="image" className="background-image-right"/>
+            
         </section>
     )
 }
